@@ -1,0 +1,110 @@
+* { 
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+
+    padding: 24px;
+    border-bottom: 1px solid rgba(82, 80, 80, 0.5);
+    background: #FFFF;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+}
+
+.container_E {
+    position: relative;
+    flex: 5;
+    background: rgb(169,43,227);
+    background: linear-gradient(90deg, rgba(169,43,227,1) 0%, rgba(179,148,233,1) 100%);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container_E::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url("./AN.jpg");
+    background-size: cover;
+    opacity: 0.2;
+}
+.name {
+    font-size: 36px;
+    margin: 128px 100px 0;
+
+}
+p {
+    font-size: 24px;
+    line-height: 32px;
+    color: #f8f8f9;
+    text-align: center;
+    margin-top: 128px;
+}
+
+.container_D {
+    flex: 8;
+    background: #FFF;
+}
+
+.box  {
+    border: 0.1rem solid black;
+    text-align: center;
+  }
+
+
+
+
+/* .Linput {
+  height: 25px;
+  border: none;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 5px;
+} */
+form {
+    flex-direction: column;
+}
+
+.botao {
+    width: 40%;
+    height: 25px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+}
+
+input:hover {
+    background-color: rgb(243, 243, 243);
+    transition: 0.5s;
+}
+
+input:focus {
+    background-color: rgb(243, 243, 243);
+}
