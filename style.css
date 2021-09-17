@@ -45,7 +45,7 @@ img {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-image: url("../images/AN.jpg");
+    background-image: url("./AN.jpg");
     background-size: cover;
     opacity: 0.2;
 }
